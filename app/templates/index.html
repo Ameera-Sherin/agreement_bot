@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Summarizer</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="index_body">
+    <div class="index_container">
+        <button id="theme-toggle" aria-label="Toggle theme">🌑</button>
+        <h1 class="index_h1">PDF Summarizer</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="file">Upload PDF:</label>
+            <div class="form-group">
+                <input type="file" id="file" name="file" accept=".pdf" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

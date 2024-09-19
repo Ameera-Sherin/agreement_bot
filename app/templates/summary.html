@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary Result</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <button id="theme-toggle" aria-label="Toggle theme">🌑</button>
+
+    <div class="container">
+        <h1>Summary Result</h1>
+        <a href="/">Back to Upload</a>
+        <div class="summary-section">
+            <h2>Summary:</h2>
+            <p>{{ summary | safe }}</p>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

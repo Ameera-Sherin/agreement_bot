@@ -1,0 +1,7 @@
+Flask
+flask-cors
+python-dotenv
+PyMuPDF
+pdf2image
+pytesseract
+openai
